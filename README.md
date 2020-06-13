@@ -11,5 +11,5 @@
 
 * _React.js_.
 * _Node.js_.
-3._Express.js_.
-4._MongoDB_.
+* _Express.js_.
+* _MongoDB_.
