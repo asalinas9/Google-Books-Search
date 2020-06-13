@@ -9,7 +9,7 @@
 
 ## Technologies Used
 
-1._React.js_
-2._Node.js_
-3._Express.js_
-4._MongoDB_
+1._React.js_,
+2._Node.js_,
+3._Express.js_,
+4._MongoDB_,
