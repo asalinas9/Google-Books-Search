@@ -1,4 +1,4 @@
-# Google-Books-Search
+# Google-Books-Search. ### _A React-based Google Books Search app_
 
 ## _A React-based Google Books Search app_
 
