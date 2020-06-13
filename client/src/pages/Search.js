@@ -5,28 +5,30 @@ import API from '../utils/API';
 
 class Search extends React.Component {
 	state = {
-		value: '',
+		title: '',
 		books: [],
+		target: '',
+		noResults: false,
 	};
 
 	componentDidMount() {
 		this.searchBook();
 	}
 
-	makeBook = (bookData) => {
+	createBook = (bookD) => {
 		return {
-			_id: bookData.id,
-			title: bookData.volumeInfo.title,
-			authors: bookData.volumeInfo.authors,
-			description: bookData.volumeInfo.description,
-			image: bookData.volumeInfo.imageLinks.thumbnail,
-			link: bookData.volumeInfo.previewLink,
+			_id: bookD.id,
+			title: bookD.volumeInfo.title,
+			authors: bookD.volumeInfo.authors,
+			description: bookD.volumeInfo.description,
+			image: bookD.volumeInfo.imageLinks.thumbnail,
+			link: bookD.volumeInfo.infoLink,
 		};
 	};
 
-	searchBook = (query) => {
-		API.getBook(query)
-			.then((res) => this.setState({books: res.data.items.map((bookData) => this.makeBook(bookData))}))
+	searchBook = (title) => {
+		API.getBook(title)
+			.then((res) => this.setState({books: res.data.items.map((bookD) => this.createBook(bookD))}))
 			.catch((err) => console.log(err));
 	};
 

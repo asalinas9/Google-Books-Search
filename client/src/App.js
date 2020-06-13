@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Wrapper from './components/Wrapper';
 
+//Pages Folder
 import NoMatch from './pages/NoMatch';
 import Search from './pages/Search';
 import Saved from './pages/Saved';
