@@ -1,6 +1,6 @@
 # Google-Books-Search
 
-A React-based Google Books Search app
+## _A React-based Google Books Search app_
 
 [Link to page](https://booksgglapisearch.herokuapp.com/)
 
