@@ -2,7 +2,7 @@ const db = require('../models');
 
 module.exports = {
 	findAll: function (req, res) {
-		db.Book.find(req.query)
+		db.Book.find(req.title)
 			.sort({date: -1})
 			.then((dbModel) => res.json(dbModel))
 			.catch((err) => {

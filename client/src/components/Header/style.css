@@ -1,0 +1,9 @@
+.jumbotron {
+	background-image: url(library2.jpeg);
+	font-weight: 600;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	height: 330px;
+}
+h3 {
+	font-weight: 600;
+}
