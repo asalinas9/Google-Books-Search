@@ -6,6 +6,16 @@ body {
 	text-align: center;
 }
 
+.fonts {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.searchBox {
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Times New Roman', Times, serif;
+}
+
 .App-logo {
 	height: 40vmin;
 	pointer-events: none;
